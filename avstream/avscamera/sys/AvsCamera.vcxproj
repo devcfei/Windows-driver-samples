@@ -163,12 +163,14 @@
       <WarningLevel>Level4</WarningLevel>
       <ExceptionHandling>
       </ExceptionHandling>
+      <PreprocessorDefinitions>_NO_CRT_STDIO_INLINE;_WIN64;_AMD64_;AMD64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalOptions>%(AdditionalOptions)                -merge:PAGECONST=PAGE</AdditionalOptions>
     </Link>
     <DriverSign>
-      <FileDigestAlgorithm>sha265</FileDigestAlgorithm>
+      <FileDigestAlgorithm>
+      </FileDigestAlgorithm>
     </DriverSign>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -177,12 +179,14 @@
       <WarningLevel>Level4</WarningLevel>
       <ExceptionHandling>
       </ExceptionHandling>
+      <PreprocessorDefinitions>_NO_CRT_STDIO_INLINE;_WIN64;_AMD64_;AMD64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalOptions>%(AdditionalOptions)                -merge:PAGECONST=PAGE</AdditionalOptions>
     </Link>
     <DriverSign>
-      <FileDigestAlgorithm>sha265</FileDigestAlgorithm>
+      <FileDigestAlgorithm>
+      </FileDigestAlgorithm>
     </DriverSign>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -191,12 +195,14 @@
       <WarningLevel>Level4</WarningLevel>
       <ExceptionHandling>
       </ExceptionHandling>
+      <PreprocessorDefinitions>_NO_CRT_STDIO_INLINE;_X86_=1;i386=1;STD_CALL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalOptions>%(AdditionalOptions)                -merge:PAGECONST=PAGE</AdditionalOptions>
     </Link>
     <DriverSign>
-      <FileDigestAlgorithm>sha265</FileDigestAlgorithm>
+      <FileDigestAlgorithm>
+      </FileDigestAlgorithm>
     </DriverSign>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -205,12 +211,14 @@
       <WarningLevel>Level4</WarningLevel>
       <ExceptionHandling>
       </ExceptionHandling>
+      <PreprocessorDefinitions>_NO_CRT_STDIO_INLINE;_X86_=1;i386=1;STD_CALL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalOptions>%(AdditionalOptions)                -merge:PAGECONST=PAGE</AdditionalOptions>
     </Link>
     <DriverSign>
-      <FileDigestAlgorithm>sha265</FileDigestAlgorithm>
+      <FileDigestAlgorithm>
+      </FileDigestAlgorithm>
     </DriverSign>
   </ItemDefinitionGroup>
   <ItemGroup>
